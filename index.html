@@ -614,7 +614,7 @@
       </div>
     </footer>
     <!-- ----------------------------------MODAL----------------------------- -->
-    <div class="backdrop iis-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-modal-btn" type="button" data-modal-close>
           <svg class="close-modal-icon"
@@ -704,13 +704,21 @@
 
           <label class="modal-form-checkbox-wrapper modal-form">
             <input
-              class="modal-form-checkbox"
+              class="modal-form-checkmark"
               type="checkbox"
               name="use_policy"
               required>
+            <svg
+              class="checkmark-icon"
+              aria-label="checkmark"
+              width="16"
+              height="16">
+              <use class="modal-form-checkmark-icon"
+                href="./images/icons.svg#icon-checkmark"></use>
+            </svg>
             I accept the terms and conditions of the
             <span>
-              <a href="#">Privacy Policy</a>
+              <a class="policy-link" href="#">Privacy Policy</a>
             </span>
           </label>
 
