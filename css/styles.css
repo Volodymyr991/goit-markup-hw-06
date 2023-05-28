@@ -735,10 +735,6 @@ body {
   fill: transparent;
 }
 
-.modal-form-checkmark-input {
-  appearance: none;
-}
-
 .modal-form-checkmark-input:focus
   + .modal-form-checkbox-wrapper
   .checkbox-text-description {
@@ -750,6 +746,10 @@ body {
 
 .modal-form-policy {
   color: #4d5ae5;
+}
+
+.visually-hidden {
+  appearance: none;
 }
 
 .modal-form-submit {
